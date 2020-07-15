@@ -1,0 +1,179 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: ;
+  background: #02011C;
+}
+header{
+  background: #02011C;
+  color: 	white;
+  height: 544px;
+  margin: px;
+  padding: 0px;
+  
+}
+#projects{
+  background: #00032B;
+  color: white;
+  margin: 50px;
+  padding: 30px;
+}
+.contact-section{
+  background: #BD11B7;
+  color: white;
+  padding: 30px;
+  margin: 150px;
+  height: 100%;
+  text-align: center;
+}
+footer{
+  background: ;
+  color: white;
+  padding: 1px;
+  bottom: 0;
+}
+#navbar{
+  background: #E51C2F;
+  padding: px;
+  position: fixed;
+  width: 100%;
+  margin: none;
+  top: 0;
+}
+.intro{
+  display: block;
+  text-align: center;
+  margin: 250px 50px 200px 50px; 
+  font-size: 25px;
+  line-height: ;
+}
+.subtitle{
+  color: #F7D04D;
+  font-size: 25px;
+}
+.menu-list{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: ;
+ 
+}
+.menu-items{
+  margin-right: 50px;
+  list-style-type: none;
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px
+}
+.projects-title{
+  text-align: center;
+}
+.project-grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+.project-tile{
+  flex: ;
+  padding: 
+}
+.contact-links{
+  margin: 20px;
+  padding: 30px;
+  display: inline-block;
+   text-align: center;
+  /*justify-content: space-between;
+  flex-wrap: wrap;*/
+}
+#profile-link{
+  padding: 20px;
+  margin: auto;
+  font-size: 30px;
+  color: #00032B;
+ 
+}
+#icon{
+  margin: 10px 0px;
+  text-align: center;
+}
+
+
+#profile-link :hover{
+  color:  #F7D04D;
+}
+.contact-heading{
+  text-align: center;
+}
+.contact-title{
+  color: white;
+  font-size: 48px;
+}
+.contact-subtitle{
+  color: #00032B;
+  font-size: 25px
+}
+.footer-text{
+  text-align: center;
+}
+@media screen and (max-width: 650px){
+  .project-image{
+    width: 300px;
+  }
+  #projects{
+    margin: unset;
+    margin: 10px;
+    
+  }
+  .contact-section{
+    margin: unset;
+    margin: 30px;
+    /*background: #BD11B7;
+    padding: 20px;*/
+    width: ;
+    height: 100%;
+  }
+  #icon{
+  margin: unset;
+  margin: 20px 0px;
+  }
+  .contact-links{
+    margin: unset;
+    padding: unset;
+  }
+  header{
+    height: unset;
+    height: 595px;
+  }
+  .intro{
+    margin: unset;
+    margin: 150px 0px 50px 0px;
+    padding: 50px 50px 50px 50px;
+  }
+  .intro{
+    font-size: unset;
+    font-size: 25px;
+  }
+  .subtitle{
+    font-size: unset;
+  }
+  
+.contact-title{
+  font-size: unset;
+  font-size: 28px;
+  }
+  .contact-subtitle{
+    font-size: unset;
+  }
+  #profile-link{
+    font-size: unset;
+    font-size: 25px;
+  }
+  .footer-text {
+    all: ;
+    font-size: 12px;
+  }
+}
+
+ 
